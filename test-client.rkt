@@ -9,6 +9,6 @@
 
 (define (square x) (* x x))
 
-(check-equal? (square X) 100)
+(check-equal? (square X) C)
 
 (check-equal? (- MDCCCCLXXXXVIIII MIM) 0)
