@@ -4,11 +4,6 @@
 
 (require [for-syntax racket "roman-numerals.rkt"])
 
-(define-for-syntax roman-table
-  (hash #\x 10
-        #\v 5
-        #\i 1))
-
 (define-syntax (handle-id stx)
   (syntax-case stx ()
     [(_ . any)
